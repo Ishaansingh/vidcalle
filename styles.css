@@ -5,19 +5,19 @@ body{
 
 .title{
     top: 0;
-    width: 100%;
+    width:8%;
     max-width: 100%;
     z-index: 1;
     display: block;
   
     position: absolute;
-    background-color: #444444;
-    color: white;
+    background-color: #ece8f0;
+    color: black;
    margin: 0;
 }
 
 .entry-modal{
-    border: 1px solid #444444;
+    border: 1px solid #8b3636;
     width: 300px;
     margin: auto;
     z-index: 9999;
@@ -26,9 +26,10 @@ body{
     top: 70;
     margin-left: -150px;
     padding: 5px;
-    color: #fff;
-    background-color: #444444;
+    color: black;
+    background-color: lightskyblue;
     text-align: center;
+    border-radius: 10px;
 }
 
 #notification{
@@ -52,6 +53,8 @@ body{
 button{
     margin: 3px;
     padding: 5px;
+  background-color: tomato;
+  border-radius: 10px;
 }
 
 #remote-video{
