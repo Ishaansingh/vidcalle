@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    top: 0;
+    width:10%;
+    max-width: 160%;
+    z-index: 1;
+    display: block;
+  
+    position: absolute;
+    background-color: #121518;
+    color: white;
+   margin: 0;
+   color: #e9f3f2;
+   box-shadow: 0 0 10px 0 #0ccfb9 inset, 0 0 20px 2px #0ccfb9;
+   border: 3px solid #0ccfb9;
+   
+}
+
+.entry-modal{
+    border: 1px solid #8b3636;
+    width: 300px;
+    margin: auto;
+    z-index: 9999;
+    position: absolute;
+    left: 50%;
+    top: 70;
+    margin-left: -150px;
+    padding: 5px;
+    color: black;
+    background-color: grey;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#notification{
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    top: 47.33px;
+    font-size: 18pt;
+    width: 100%;
+    background-color: skyblue;
+    background-image: -moz-linear-gradient(top, #fff 0%, #F4F200 100%); 
+
+}
+
+
+.room-input{
+  border: none;
+  padding:5px;
+  color: #0ccfb9;
+  box-shadow: 0 0 10px 0 #0ccfb9 inset, 0 0 20px 2px #0ccfb9;
+
+}
+
+button{
+    margin: 3px;
+    padding: 5px;
+  background-color: tomato;
+  border-radius: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 100%;
+  background-color: black;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: bottom;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  border: 3px solid #00d7c3;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #0ccfb9;
+  box-shadow: 0 0 10px 0 #0ccfb9 inset, 0 0 20px 2px #0ccfb9;
+  border: 3px solid #0ccfb9;
+  background-color: black;
+  
+}
+
+#remote-video{
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background-color: lightgray;
+    position: absolute;
+}
+
+#local-video{
+    top: 60;
+    width: 300;
+    object-fit: cover;
+    height: 150;
+    z-index: 1;
+    right: 15;
+    background-color: #444444;
+    position: absolute;
+}
+.meet-controls-bar{
+    bottom: 0;
+    background-color: black;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
