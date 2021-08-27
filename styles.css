@@ -5,8 +5,8 @@ body{
 
 .title{
     top: 0;
-    width:10%;
-    max-width: 160%;
+    width:50%;
+    max-width: 200%;
     z-index: 1;
     display: block;
   
@@ -34,6 +34,7 @@ body{
     background-color: grey;
     text-align: center;
     border-radius: 10px;
+    
 }
 
 #notification{
@@ -55,40 +56,22 @@ body{
   border: none;
   padding:5px;
   color: #0ccfb9;
-  box-shadow: 0 0 10px 0 #0ccfb9 inset, 0 0 20px 2px #0ccfb9;
+  border-radius: 12px;
+  width: 300px;
+  height: 90px;
 
 }
 
 button{
-    margin: 3px;
-    padding: 5px;
-  background-color: tomato;
-  border-radius: 10px;
-  font-family: 'Roboto Condensed', sans-serif;
-  height: 100%;
-  background-color: black;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  width: 70px;
-  height: 70px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: bottom;
-  color: #000;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin-bottom: 30px;
-  cursor: pointer;
-  display: inline-block;
-  border: 3px solid #00d7c3;
-  border-radius: 50px;
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
-  color: #0ccfb9;
-  box-shadow: 0 0 10px 0 #0ccfb9 inset, 0 0 20px 2px #0ccfb9;
-  border: 3px solid #0ccfb9;
-  background-color: black;
+    padding: 0 16px;
+background-color: #2681f2;
+color: white;
+width: 200px;
+height: 48px;
+line-height: 48px;
+border-color:#2681f2 ;
+border-radius: 12px;
+cursor: pointer;
   
 }
 
@@ -97,7 +80,7 @@ button{
     height: 100%;
     width: 100%;
     left: 0;
-    background-color: lightgray;
+    background-color: rgb(255, 249, 249);
     position: absolute;
 }
 
