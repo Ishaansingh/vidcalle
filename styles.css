@@ -41,12 +41,12 @@ body{
     position: absolute;
     z-index: 1;
     text-align: center;
-    color: #fff;
+    color: white;
     margin: 0;
     top: 47.33px;
     font-size: 18pt;
-    width: 100%;
-    background-color: skyblue;
+    width: 10%;
+    background-color: rgb(23, 65, 65);
     background-image: -moz-linear-gradient(top, #fff 0%, #F4F200 100%); 
 
 }
@@ -96,8 +96,12 @@ cursor: pointer;
 }
 .meet-controls-bar{
     bottom: 0;
-    background-color: black;
+    background-color: rgb(23, 65, 65);
     left: 0;
     position: absolute;
     width: 100%;
+}
+input{
+    background-color: #e8f0fe;
+    cursor: pointer;
 }

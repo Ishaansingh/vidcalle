@@ -25,7 +25,7 @@ function createRoom() {
         }, (err) => {
             console.log(err)
         })
-        notify("Waiting for peer to join.")
+        notify("Waiting for other to join.")
     })
     peer.on('call', (call) => {
         call.answer(local_stream);
@@ -78,7 +78,7 @@ function joinRoom() {
         getUserMedia({ video: true, audio: true }, (stream) => {
             local_stream = stream;
             setLocalStream(local_stream)
-            notify("Joining peer")
+            notify("Joining session")
             let call = peer.call(room_id, stream)
             call.on('stream', (stream) => {
                 setRemoteStream(stream);
